@@ -13,7 +13,7 @@
       >
         <div
           class="w-48 h-32 rounded-lg bg-neutral-200 overflow-hidden"
-          v-if="update.props.image.length"
+          v-if="update.props.image"
         >
           <img
             :src="update.props.image"
